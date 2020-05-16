@@ -47,7 +47,7 @@ public class PickPocket extends Modifier implements Listener {
 
 		config.addDefault("Allowed", true);
 		config.addDefault("Name", "Pick-Pocket");
-		config.addDefault("ModifierItemName", "Mischievous Gold bar");
+		config.addDefault("ModifierItemName", "Mischievous Gold Bar");
 		config.addDefault("Description", "Chance to steal money from a Player by hitting him!");
 		config.addDefault("DescriptionModifierItem", "%WHITE%Modifier-Item for the Pick-Pocket-Modifier");
 		config.addDefault("Color", "%DARK_GRAY%");
@@ -59,7 +59,6 @@ public class PickPocket extends Modifier implements Listener {
 		config.addDefault("Enchantable", true);
 
 		config.addDefault("Recipe.Enabled", false);
-		config.addDefault("OverrideLanguagesystem", true); //Must be set to true as this Modifier is not in the Language files
 
 		ConfigurationManager.saveConfig(config);
 		ConfigurationManager.loadConfig("Modifiers" + File.separator, getFileName());
