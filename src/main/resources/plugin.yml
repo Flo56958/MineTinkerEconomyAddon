@@ -1,0 +1,6 @@
+name: MineTinkerEconomyAddon
+version: ${project.version}
+main: de.flo56958.minetinkereconomyaddon.MineTinkerEconomyAddon
+api-version: 1.13
+depend: [Vault, MineTinker]
+description: This Addon adds Modifiers that use the economy system.
