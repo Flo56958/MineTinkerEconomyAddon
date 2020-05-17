@@ -8,8 +8,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class MineTinkerEconomyAddon extends JavaPlugin {
 
-	private Economy econ;
+	private static Economy econ;
 	private static JavaPlugin plugin;
+
+	public static Economy getEcon() { return econ; }
 
 	@Override
 	public void onEnable() {
